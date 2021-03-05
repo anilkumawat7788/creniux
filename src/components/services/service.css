@@ -1,0 +1,219 @@
+.main_bg {
+  background: #fbfbfb 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.services_top_section {
+  position: relative;
+  background-image: url("../../images/services22.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 26rem;
+  width: 100%;
+}
+.services_top_heading {
+  position: relative;
+}
+.services_top_heading h1 {
+  color: #2c2024;
+  text-align: center;
+  padding: 8rem 0 0 1rem;
+  opacity: 1;
+}
+.navlink_homeandcontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home_and_service p {
+  display: inline-block;
+  text-align: center;
+  color: #2c2024;
+}
+.home_and_service p:hover {
+  color: #144d79;
+  font-size: 1.1rem;
+}
+/* iot css section start here */
+.services_header_section {
+  margin-top: 5rem;
+}
+.iot_box {
+  position: relative;
+}
+
+.iot_top_img {
+  position: relative;
+  width: 100%;
+  height: 26rem;
+  margin: 1rem 0 0 0rem;
+}
+
+.btn_get_service {
+  position: absolute;
+  top: 88%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  /* margin: 2rem 0 0 3rem; */
+  font-size: 0.8rem;
+  padding: 10px 25px;
+  background: #144d79 0% 0% no-repeat padding-box;
+  box-shadow: 10px 10px 50px #0000001a;
+  border-radius: 100px;
+  color: #fff;
+  outline: none !important;
+  border: none;
+  opacity: 1;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.btn_get_service:hover {
+    background: #fff;
+    color:#144d79 ;
+    transition: .3s ease-in;
+  
+  }
+
+.iot_headings {
+  margin-top: 0rem;
+}
+.iot_headings h3 {
+  width: 70%;
+  color: #144d79;
+  font-size: 1.6rem;
+  border-bottom: 4px solid #ee6060;
+}
+.iot_headings h4 {
+  padding-top: 1rem;
+  color: #2c2024;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.iot_headings p {
+  padding-top: 1rem;
+  color: #707070;
+  line-height: 2;
+}
+/* cloud section start here */
+.iot_box2 {
+  position: relative;
+  /* margin-left: 8rem;
+    width: 20rem;
+    height: 26rem;
+    background: transparent linear-gradient(180deg, #D40808 0%, #6A0404 100%) 0% 0% no-repeat padding-box;
+box-shadow: 6px 6px 20px #00000029;
+border-radius: 55px;
+opacity: 0.85; */
+}
+
+.iot_top_img2 {
+  position: relative;
+  width: 100%;
+  height: 26rem;
+  margin: 1rem 0 0 0rem;
+}
+.btn_get_service2 {
+  position: absolute;
+  top: 88%;
+  left: 72.5%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  padding: 10px 25px;
+  background: #144d79 0% 0% no-repeat padding-box;
+  box-shadow: 10px 10px 50px #0000001a;
+  border-radius: 100px;
+  color: #fff;
+  outline: none !important;
+  border: none;
+  opacity: 1;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.btn_get_service2:hover {
+    background: #fff;
+    color:#144d79 ;
+    transition: .3s ease-in;
+  
+  }
+.cloud_headings {
+  margin-top: 0rem;
+}
+.cloud_headings h3 {
+  width: 80%;
+  color: #144d79;
+  font-size: 1.6rem;
+  border-bottom: 4px solid #ee6060;
+}
+.cloud_headings h4 {
+  padding-top: 1rem;
+  color: #2c2024;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.cloud_headings p {
+  padding-top: 1rem;
+  color: #707070;
+  line-height: 2;
+}
+@media screen and (max-width: 800px) {
+  .services_top_section {
+    height: 13rem;
+  }
+  .services_top_heading h1 {
+    padding: 4rem 0 0 1rem;
+  }
+  /* iot css section start here */
+  .services_header_section {
+    margin-top: 2rem;
+  }
+  .iot_top_img {
+    width: 100%;
+    height: 20rem;
+    margin: 1rem 0rem 0 0rem;
+  }
+
+  .btn_get_service {
+    position: absolute;
+    top: 88%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+  }
+  .iot_headings h3 {
+    font-size: 1.2rem;
+  }
+  /* cloud section start here */
+
+  .iot_top_img2 {
+    width: 100%;
+    height: 20rem;
+    margin: 1rem 0rem 0 0rem;
+  }
+
+  .btn_get_service2 {
+    top: 88%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    width: 9.5rem;
+    padding: 10px 25px !important;
+  }
+
+  .cloud_headings h3 {
+    width: 80%;
+    color: #144d79;
+    font-size: 1.2rem;
+    border-bottom: 4px solid #ee6060;
+  }
+  .cloud_headings h4 {
+    padding-top: 1rem;
+    color: #2c2024;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .cloud_headings p {
+    padding-top: 1rem;
+    color: #707070;
+    line-height: 2;
+  }
+}

@@ -1,0 +1,159 @@
+.main_container{
+    overflow-x: hidden;
+}
+.footer_background{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    width: 100%;
+}
+.footer_left1 img{
+    width:7rem ;
+    height: 6rem;
+    margin-left: 4rem;
+}
+.footer_left1 p{
+font-size: .8rem;
+padding-top: .5rem;
+}
+.footer_left2,
+.footer_center,
+.footer_right1,
+.footer_right2{
+    margin-top: 5rem;
+}
+.footer_left2 h3,
+.footer_center h3,
+.footer_right1 h3,
+.footer_right2 h3{
+    font-size: 1.2rem;
+    color: #2C2024;
+}
+.footer_left2 p,
+.footer_center p,
+.footer_right1 p,
+.footer_right2 p{
+    font-size: 1rem;
+    color: #707070 !important;
+    text-decoration: none;
+}
+.footer_left2_headings{
+    font-size: 1rem;
+    color: #707070 !important;
+    text-decoration: none;
+}
+.circile_media{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #333;
+
+
+}
+.footer_circle_icons{
+    color: #fff;
+    margin: .7rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.footer_circle_icons2{
+    color: #fff;
+    margin: .5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.footer_circle_icons:hover{
+    color: #144d79;
+    margin: .7rem;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+/* second footer css images */
+.footer_img_section{
+    margin:2rem 0 2rem 0;
+}
+.footer_images{
+    width: 7rem;
+    height: 4rem;
+}
+.all_policy{
+    /* margin: 0rem 0 2rem 0; */
+}
+.all_policy h3{
+    padding-top: 1rem;
+    font-size: 1rem;
+
+}
+.all_policy h5{
+    display: inline-block;
+    float: right;
+    font-size: 1rem;
+    padding:0 .8rem 2rem .8rem;
+}
+@media screen and (max-width:800px){
+    .footer_left1 img{
+        width:6rem ;
+        height: 5rem;
+        margin-left: 6rem;
+    } 
+    .footer_left1 p{
+        text-align: center;
+        font-size: .9rem;
+        padding-top: .5rem;
+        }
+        .footer_left2,
+.footer_center,
+.footer_right1,
+.footer_right2{
+    margin-top: 2rem;
+} 
+.footer_left2 h3,
+.footer_center h3,
+.footer_right1 h3,
+.footer_right2 h3{
+    font-size: 1rem;
+  
+}
+.footer_left2 p,
+.footer_center p,
+.footer_right1 p,
+.footer_right2 p{
+    font-size: .8rem;
+}
+.footer_img_section{
+    margin:1rem 0 1rem 0;
+}
+.footer_images{
+    width: 6rem;
+    height: 3rem;
+} 
+.all_policy h3{
+    text-align: center;
+    font-size: .8rem;
+}
+.all_policy h5{
+    float:none;
+    text-align: center;  
+    font-size: .8rem;
+}
+.circile_media{
+    width: 2.1rem;
+    height: 2.1rem;
+    margin: .1rem;
+}
+.media_margin{
+    margin-left: .3rem;
+}
+.footer_circle_icons{   
+    margin: .5rem;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.footer_circle_icons2{
+    margin: .3rem;
+    height: 1rem;
+    width: 1rem;
+}
+.special_center{
+    text-align: center;
+}
+}
