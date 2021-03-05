@@ -2,6 +2,7 @@ const express = require('express');
 const app = express()
 const mongoose = require('mongoose');
 const dotenv = require('dotenv')
+// const nodemailer =require('nodemailer');
 const cors = require('cors')
 const routesUrls = require('./routes/routes')
 // require("./db/conn");
