@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Helmet } from 'react-helmet';
 import axios from "axios";
+// import{ init } from 'emailjs-com';
+// import { emailjs } from 'emailjs-com'
 import "./contact.css";
 import { NavLink } from "react-router-dom";
 import { IoIosSend } from "react-icons/io";
@@ -40,6 +42,8 @@ class Contact extends Component {
   sendEmail = (event) => {
     event.preventDefault();
 
+
+// email start here
     // emailjs.sendForm('service_e3cp86t', 'template_z9zsxjk', event.target, 'user_lCSsJrCdxRM8TErL4kQDD')
     // .then((result) => {
     //     console.log(result.text);
@@ -48,6 +52,7 @@ class Contact extends Component {
     // });
     // event.target.reset();
 
+    // email end here
     const regitstered = {
       fullname: this.state.fullname,
       email: this.state.email,
